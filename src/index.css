@@ -1,0 +1,25 @@
+body{
+  /* background: #e8e8e8ab!important; */
+}
+.card{
+  transition: all .05s linear;
+  &:hover{
+    cursor: pointer;
+    scale: 1.02;
+    z-index: 1111;
+  }
+}
+.container {
+  width:40rem!important;
+}
+.main{
+  background-color: white!important;
+  height: 100%!important;
+
+}.news-comp{
+    height: 50rem!important;
+    overflow: auto;
+}
+.news-comp::-webkit-scrollbar{
+  display: none;
+}
